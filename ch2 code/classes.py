@@ -13,7 +13,7 @@ class Student:
     grade = ''
     division = ''
     
-    def __inti__(self, roll,name,stream):
+    def __init__(self, roll,name,stream):
         self.rollNum = roll
         self.name = name
         self.stream = stream
